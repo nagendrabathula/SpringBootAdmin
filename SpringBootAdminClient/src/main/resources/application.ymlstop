@@ -1,0 +1,15 @@
+server:
+ port: 9090
+spring:
+    application:
+        name: Client
+    boot:
+       admin:
+          client:
+            url: http://localhost:8080
+            instance:
+              metadata:
+                 user:
+                   name: admin
+                   password: admin1234
+
